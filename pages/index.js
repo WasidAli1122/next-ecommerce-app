@@ -4,7 +4,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <NextHead title="Home Page" description="get your desired products." />
+      <NextHead
+        title="Home Page"
+        description="get your desired products."
+        ogImage="/images/banner.png"
+      />
       <div className="container min-h-[calc(100vh-80px)] w-full grid grid-cols-12">
         <div className="col-span-6 flex flex-col justify-center space-y-6">
           <h6 className="text-lg text-gray-500 uppercase">featured product</h6>

@@ -41,6 +41,8 @@ export default function ReactSlider({ sliderData, alt }) {
                 fill
                 alt={alt}
                 sizes="(max-width: 500px) 100px, (max-width: 1023px) 400px, 1000px"
+                placeholder="blur"
+                blurDataURL={items}
               />
             </div>
           );
